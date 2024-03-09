@@ -21,6 +21,7 @@ int maxProfit(int a[], int start, int end)
 	}
 
 	if (tMax > tMin) return Max - Min;
+	else if (Max == Min) return 0;
 	else
 	{
 		int Max2 = Min;
