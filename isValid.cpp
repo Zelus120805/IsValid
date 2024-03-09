@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
 void xoaPhanTu(char a[], int i, int j, long& n)
